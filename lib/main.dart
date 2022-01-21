@@ -1,17 +1,17 @@
 import 'package:fancy_bar/fancy_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:skanner_fronted/contacts.dart';
+import 'package:skanner_fronted/second_menu/contacts.dart';
 import 'package:skanner_fronted/dashboard.dart';
-import 'package:skanner_fronted/events.dart';
-import 'package:skanner_fronted/my_drawer_header.dart';
-import 'package:skanner_fronted/notes.dart';
-import 'package:skanner_fronted/notifications.dart';
-import 'package:skanner_fronted/privacy_policy.dart';
-import 'package:skanner_fronted/send_feedback.dart';
-import 'package:skanner_fronted/settings.dart';
+import 'package:skanner_fronted/second_menu/events.dart';
+import 'package:skanner_fronted/second_menu/my_drawer_header.dart';
+import 'package:skanner_fronted/second_menu/notes.dart';
+import 'package:skanner_fronted/second_menu/notifications.dart';
+import 'package:skanner_fronted/second_menu/privacy_policy.dart';
+import 'package:skanner_fronted/second_menu/send_feedback.dart';
+import 'package:skanner_fronted/second_menu/settings.dart';
 
 
-import 'my_drawer_header.dart';
+import 'second_menu/my_drawer_header.dart';
 
 void main() => runApp(MyApp());
 

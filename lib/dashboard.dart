@@ -24,7 +24,7 @@ class DashboardPage extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.black26,
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Traducir()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Body_traductor()));
                 },
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -58,7 +58,7 @@ class DashboardPage extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.black26,
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Escanear()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Body_escaner()));
                 },
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -92,7 +92,7 @@ class DashboardPage extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.black26,
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Unir()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Body_union()));
                 },
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -127,7 +127,7 @@ class DashboardPage extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.black26,
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Convertir()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Body_convertir()));
                 },
                 child: Column(
                   children: [
@@ -160,7 +160,7 @@ class DashboardPage extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.black26,
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Editar()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Body_Edicion()));
                 },
                 child: Column(
                   children: [
